@@ -1,6 +1,6 @@
 # SortlyScan
 
-**Artificial Intelligence, Environmental Education & Sustainability**
+** ♻🤖 Artificial Intelligence, Environmental Education & Sustainability**
 
 An AI-powered educational platform designed to promote recycling, environmental awareness, and sustainable practices through computer vision, interactive learning, gamification, and institutional management.
 
