@@ -1,0 +1,24 @@
+{
+  "name": "sortlyscan-interactive-demo",
+  "version": "2.0.0-demo.1",
+  "private": true,
+  "description": "SortlyScan Interactive Demo: plataforma completa en el navegador, con datos ficticios locales y SortlyScan Vision real (ONNX Runtime Web). Sin cuentas, servidores ni variables de entorno.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "dev:lan": "npm run dev:lan --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "build:static": "npm run build:static --workspace frontend",
+    "start": "npm run start --workspace frontend",
+    "typecheck": "npm run typecheck --workspace frontend",
+    "check": "node scripts/check-secrets.mjs",
+    "test:setup": "npm install --prefix tests",
+    "test:demo": "node tests/demo/run.mjs",
+    "test:vision": "node tests/vision/compare-vision.mjs"
+  }
+}

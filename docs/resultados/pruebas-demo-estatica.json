@@ -1,0 +1,294 @@
+{
+  "fecha": "2026-11-25T23:02:22.877Z",
+  "base": "http://localhost:4173",
+  "navegador": "Google Chrome (Playwright)",
+  "aprobadas": 47,
+  "fallidas": 0,
+  "errores_de_consola": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pruebas": [
+    {
+      "prueba": "Landing: «Explorar plataforma» y «Probar demostración» reemplazan el acceso",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 452
+    },
+    {
+      "prueba": "Selector de perfiles con los textos aprobados y puntos reales del historial",
+      "resultado": "aprobado",
+      "detalle": "30 estudiantes, 3 grupos, 3 docentes, 1 dirección; Diego M. · Embajador, 1050 pts · Avanzado",
+      "ms": 510
+    },
+    {
+      "prueba": "Solicitud institucional ficticia guardada localmente",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 546
+    },
+    {
+      "prueba": "Docente: entrar desde el selector (Carlos Mejía, 7.º A)",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 447
+    },
+    {
+      "prueba": "Docente: asignar una lección al grupo",
+      "resultado": "aprobado",
+      "detalle": "2 de 10 completaron",
+      "ms": 1769
+    },
+    {
+      "prueba": "Docente: crear un reto de grupo",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1683
+    },
+    {
+      "prueba": "Docente: aprobar una actividad ambiental (otorga puntos una sola vez)",
+      "resultado": "aprobado",
+      "detalle": "Valeria S.: 150 → 250 puntos (50 por la actividad verificada; el resto, retos/logros cumplidos)",
+      "ms": 2370
+    },
+    {
+      "prueba": "Cambio de perfil dentro del panel: docente → estudiante (Camila R.)",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1307
+    },
+    {
+      "prueba": "Sincronización: la estudiante recibe la notificación de la actividad asignada",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 127
+    },
+    {
+      "prueba": "Estudiante: completar la actividad pendiente de «papel» completa la lección (+15)",
+      "resultado": "aprobado",
+      "detalle": "275 → 340 puntos · +15 lección · Completó el reto «Dos lecciones esta semana» (+50)",
+      "ms": 2581
+    },
+    {
+      "prueba": "Estudiante: actividades y cuestionario de «metal» → lección completada y cuestionario aprobado (+15 +25)",
+      "resultado": "aprobado",
+      "detalle": "340 → 380 puntos (+25 cuestionario, +15 lección)",
+      "ms": 7598
+    },
+    {
+      "prueba": "Reglas: repetir y aprobar otra vez el mismo cuestionario no vuelve a sumar puntos",
+      "resultado": "aprobado",
+      "detalle": "sin puntos extra (380)",
+      "ms": 3555
+    },
+    {
+      "prueba": "Persistencia: los puntos siguen después de recargar",
+      "resultado": "aprobado",
+      "detalle": "380 puntos tras recargar",
+      "ms": 1061
+    },
+    {
+      "prueba": "Niveles, logros y ranking visibles para el estudiante",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1203
+    },
+    {
+      "prueba": "Sincronización: el docente ve el avance de la estudiante en la actividad asignada",
+      "resultado": "aprobado",
+      "detalle": "2 → 3 completaron",
+      "ms": 2189
+    },
+    {
+      "prueba": "Vision real: subir una foto identifica «plástico» con el modelo en el navegador y registra el escaneo",
+      "resultado": "aprobado",
+      "detalle": "plastic, confianza 0.9265 · Modelo sortlyscan-vision-v1 · 135 ms · analizado en este navegador · registrado sin la foto",
+      "ms": 3088
+    },
+    {
+      "prueba": "Vision: la pregunta posterior al escaneo se califica una sola vez y suma puntos",
+      "resultado": "aprobado",
+      "detalle": "1050 → 1060",
+      "ms": 1176
+    },
+    {
+      "prueba": "Vision: cámara (dispositivo simulado de Chrome) → captura → decisión del modelo",
+      "resultado": "aprobado",
+      "detalle": "MATERIAL IDENTIFICADO ·  · Otros residuos",
+      "ms": 3070
+    },
+    {
+      "prueba": "Dirección: registrar docente, crear grupo y asignarlo (sin invitaciones ni contraseñas)",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 4610
+    },
+    {
+      "prueba": "Dirección: registrar estudiantes por nombre y transferir uno de grupo",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 3206
+    },
+    {
+      "prueba": "Estadísticas de la dirección reflejan la actividad nueva (Camila completó 2 lecciones más)",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1479
+    },
+    {
+      "prueba": "Reportes: «Resumen institucional» en CSV con la leyenda de demostración",
+      "resultado": "aprobado",
+      "detalle": "sortlyscan-resumen-institucional-2026-08-28-2026-11-25.csv (2114 bytes)",
+      "ms": 633
+    },
+    {
+      "prueba": "Reportes: «Resumen institucional» en Excel con la leyenda de demostración",
+      "resultado": "aprobado",
+      "detalle": "sortlyscan-resumen-institucional-2026-08-28-2026-11-25.xlsx (3712 bytes)",
+      "ms": 518
+    },
+    {
+      "prueba": "Reportes: «Resumen institucional» en PDF con la leyenda de demostración",
+      "resultado": "aprobado",
+      "detalle": "sortlyscan-resumen-institucional-2026-08-28-2026-11-25.pdf (17085 bytes)",
+      "ms": 563
+    },
+    {
+      "prueba": "Superadministración: aprobar una solicitud y entrar como su dirección",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1541
+    },
+    {
+      "prueba": "Institución nueva: su dirección crea un grupo y registra un estudiante que aparece en el selector",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 2882
+    },
+    {
+      "prueba": "Superadministración: suspender y reactivar una institución",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 2428
+    },
+    {
+      "prueba": "Superadministración: auditoría local y listado de personas ficticias",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 749
+    },
+    {
+      "prueba": "Superadministración: crear una lección (borrador) desde el editor de contenidos",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 2364
+    },
+    {
+      "prueba": "Lección publicada durante la demo se abre por URL directa (respaldo 404 en hosting estático)",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 983
+    },
+    {
+      "prueba": "Dos pestañas: un reto creado por el docente aparece en la pestaña del estudiante sin recargar",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 2936
+    },
+    {
+      "prueba": "Restablecer demostración con confirmación vuelve a los datos iniciales",
+      "resultado": "aprobado",
+      "detalle": "1 institución, 3 solicitudes iniciales",
+      "ms": 1378
+    },
+    {
+      "prueba": "Responsividad 390 px sin desbordamiento horizontal: /",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1429
+    },
+    {
+      "prueba": "Responsividad 390 px sin desbordamiento horizontal: /acceso",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1357
+    },
+    {
+      "prueba": "Responsividad 390 px sin desbordamiento horizontal: /solicitud",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1371
+    },
+    {
+      "prueba": "Responsividad 390 px sin desbordamiento horizontal: /panel/estudiante",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1385
+    },
+    {
+      "prueba": "Responsividad 390 px sin desbordamiento horizontal: /panel/estudiante/escanear",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1353
+    },
+    {
+      "prueba": "Responsividad 390 px sin desbordamiento horizontal: /panel/estudiante/aprender/plastico-basico",
+      "resultado": "aprobado",
+      "detalle": null,
+      "ms": 1379
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 2275
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /acceso",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 1919
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /solicitud",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 1921
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /panel/estudiante",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 2100
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /panel/estudiante/escanear",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 2033
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /panel/docente",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 2212
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /panel/director",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 2066
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /panel/director/reportes",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 2082
+    },
+    {
+      "prueba": "Accesibilidad (axe-core, WCAG 2.1 AA) sin fallas graves ni críticas: /panel/admin",
+      "resultado": "aprobado",
+      "detalle": "0 avisos menores",
+      "ms": 1930
+    }
+  ]
+}

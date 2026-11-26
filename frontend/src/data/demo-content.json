@@ -1,0 +1,868 @@
+{
+ "_comment": "MODO DEMOSTRACIÓN. Preguntas distintas de las evaluaciones reales: este archivo se incluye en el código público del navegador. Las lecciones reales y sus respuestas están en content/ y solo llegan a la base de datos. La teoría de cada lección es la misma (no contiene respuestas).",
+ "lessons": [
+  {
+   "slug": "plastico-basico",
+   "material": "plastic",
+   "title": "Plástico: separar sin adivinar",
+   "summary": "Reconoce los envases plásticos más comunes y prepáralos para que puedan recuperarse.",
+   "minutes": 8,
+   "content": {
+    "what": "El plástico es un material fabricado principalmente a partir de derivados del petróleo. Hay muchos tipos y no todos se recuperan del mismo modo. El PET de las botellas de bebidas es uno de los más aceptados por los centros de acopio.",
+    "identify": [
+     "Busca el triángulo con un número del 1 al 7 en la base del envase. Indica el tipo de resina, no garantiza que se recicle en tu comunidad.",
+     "El número 1 (PET) suele aparecer en botellas transparentes de bebidas.",
+     "El número 2 (PEAD) aparece en envases opacos y resistentes, como los de detergente o leche.",
+     "Las bolsas delgadas, envolturas y empaques de golosinas son plásticos flexibles que muchos centros no reciben."
+    ],
+    "classify": [
+     "Vacía el envase por completo.",
+     "Enjuágalo si tuvo bebida azucarada o comida y déjalo secar.",
+     "Aplasta la botella para ocupar menos espacio.",
+     "Separa la tapa si tu centro de acopio lo pide."
+    ],
+    "mistakes": [
+     "Pensar que el triángulo de flechas significa que el envase siempre se recicla.",
+     "Entregar envases con restos de líquido o comida, que contaminan el resto del material.",
+     "Mezclar bolsas y envolturas con botellas PET."
+    ],
+    "tips": [
+     "Prefiere botellas reutilizables para el agua en la escuela.",
+     "Pregunta en el centro de acopio más cercano qué números aceptan.",
+     "Cuando no estés seguro, consulta a tu docente antes de mezclar."
+    ]
+   },
+   "intro": "Botellas, tapas, envolturas y bolsas parecen lo mismo, pero no se recuperan igual. Aprende a distinguirlos en pocos pasos.",
+   "examples": [
+    "Botella PET de agua o refresco",
+    "Envase de champú o detergente",
+    "Vaso desechable",
+    "Bolsa y envoltura de golosina"
+   ],
+   "quiz": {
+    "title": "¿Cómo separar el plástico? (demostración)",
+    "questions": [
+     {
+      "prompt": "En la demostración, ¿qué haces con una botella antes de separarla?",
+      "options": [
+       "La lleno de arena",
+       "La vacío",
+       "La pinto",
+       "La corto en tiras"
+      ],
+      "correct": 1,
+      "explanation": "Vaciarla es el primer paso para no contaminar el material."
+     },
+     {
+      "prompt": "¿Qué tipo de plástico es una bolsa delgada?",
+      "options": [
+       "Rígido",
+       "Flexible",
+       "Metálico",
+       "De vidrio"
+      ],
+      "correct": 1,
+      "explanation": "Las bolsas son plásticos flexibles."
+     },
+     {
+      "prompt": "¿Quién confirma qué plásticos recibe tu comunidad?",
+      "options": [
+       "El centro de acopio",
+       "Nadie",
+       "El color de la tapa",
+       "La marca"
+      ],
+      "correct": 0,
+      "explanation": "Cada centro de acopio decide qué materiales recibe."
+     }
+    ]
+   },
+   "activities": [
+    {
+     "kind": "truefalse",
+     "prompt": "Una botella PET vacía ocupa menos espacio si se aplasta.",
+     "answer": true,
+     "explanation": "Aplastarla reduce el volumen para almacenarla y transportarla."
+    },
+    {
+     "kind": "sort",
+     "prompt": "Ordena estos objetos de plástico según su forma.",
+     "bins": [
+      "Rígido",
+      "Flexible"
+     ],
+     "items": [
+      "Botella de champú",
+      "Bolsa de pan",
+      "Vaso grueso",
+      "Película de envoltura"
+     ],
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "explanation": "Los plásticos rígidos conservan su forma; los flexibles se doblan con facilidad."
+    },
+    {
+     "kind": "match",
+     "prompt": "Une cada envase con lo que suele contener.",
+     "left": [
+      "Botella PET",
+      "Envase PEAD opaco",
+      "Bolsa delgada"
+     ],
+     "right": [
+      "Detergente",
+      "Pan",
+      "Agua"
+     ],
+     "answer": [
+      2,
+      0,
+      1
+     ],
+     "explanation": "Ejemplo de demostración: el PET es común en bebidas y el PEAD en productos de limpieza."
+    }
+   ]
+  },
+  {
+   "slug": "papel-basico",
+   "material": "paper",
+   "title": "Papel: limpio y seco",
+   "summary": "Aprende qué papeles pueden recuperarse y cuáles deben quedar fuera.",
+   "minutes": 7,
+   "content": {
+    "what": "El papel se fabrica con fibras de celulosa. Esas fibras pueden reutilizarse varias veces para hacer papel nuevo, siempre que lleguen limpias y secas.",
+    "identify": [
+     "Hojas de cuaderno, papel de impresora, periódicos, revistas y sobres son papeles comunes.",
+     "Si el papel se rompe fácilmente y absorbe el agua, como una servilleta, probablemente no se recupera.",
+     "Los tickets de compra brillantes suelen ser papel térmico y no se mezclan con el papel común."
+    ],
+    "classify": [
+     "Separa el papel limpio en un recipiente seco.",
+     "Retira grapas grandes, clips y espirales de metal o plástico.",
+     "No arrugues las hojas: guárdalas planas o en paquetes.",
+     "Protege el papel de la lluvia y la humedad."
+    ],
+    "mistakes": [
+     "Mezclar servilletas, papel higiénico o pañuelos usados.",
+     "Incluir papel con grasa o restos de comida.",
+     "Dejar el papel al aire libre, donde se moja."
+    ],
+    "tips": [
+     "Usa las dos caras de una hoja antes de desecharla.",
+     "Reutiliza hojas impresas por un lado como borrador.",
+     "Coloca un recipiente de papel junto a la impresora o el escritorio del aula."
+    ]
+   },
+   "intro": "El papel se recupera si sus fibras llegan limpias y secas. Una servilleta usada o una hoja mojada ya no sirven.",
+   "examples": [
+    "Hojas de cuaderno",
+    "Periódicos y revistas",
+    "Sobres",
+    "Ticket brillante de compra (no se mezcla)"
+   ],
+   "quiz": {
+    "title": "¿Qué papel se recupera? (demostración)",
+    "questions": [
+     {
+      "prompt": "¿Qué daña más las fibras del papel?",
+      "options": [
+       "Doblarlo",
+       "La humedad",
+       "Escribir en él",
+       "Guardarlo en una caja"
+      ],
+      "correct": 1,
+      "explanation": "El agua debilita las fibras."
+     },
+     {
+      "prompt": "¿Dónde conviene guardar el papel para separar?",
+      "options": [
+       "En un lugar seco",
+       "Junto al lavamanos",
+       "Con restos de comida",
+       "Al aire libre bajo lluvia"
+      ],
+      "correct": 0,
+      "explanation": "Un lugar seco evita que se moje."
+     },
+     {
+      "prompt": "Una servilleta con comida es…",
+      "options": [
+       "Papel recuperable",
+       "Un residuo sucio",
+       "Cartón",
+       "Metal"
+      ],
+      "correct": 1,
+      "explanation": "La comida contamina el papel."
+     }
+    ]
+   },
+   "activities": [
+    {
+     "kind": "choice",
+     "prompt": "¿Cuál de estos papeles está en mejor estado para separarse?",
+     "options": [
+      "Servilleta usada",
+      "Hoja de cuaderno seca",
+      "Papel mojado",
+      "Papel con grasa"
+     ],
+     "answer": 1,
+     "explanation": "El papel limpio y seco es el más fácil de recuperar."
+    },
+    {
+     "kind": "sort",
+     "prompt": "Separa estos papeles según su estado.",
+     "bins": [
+      "Limpio y seco",
+      "Sucio o húmedo"
+     ],
+     "items": [
+      "Periódico doblado",
+      "Pañuelo usado",
+      "Sobre de carta",
+      "Papel con aceite"
+     ],
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "explanation": "La humedad y la grasa dañan las fibras del papel."
+    },
+    {
+     "kind": "truefalse",
+     "prompt": "Una hoja impresa por ambos lados puede separarse como papel si está seca.",
+     "answer": true,
+     "explanation": "La tinta no impide separarla; la humedad sí la daña."
+    }
+   ]
+  },
+  {
+   "slug": "carton-basico",
+   "material": "cardboard",
+   "title": "Cartón: plano, seco y sin grasa",
+   "summary": "Distingue el cartón recuperable de los envases multicapa y prepáralo correctamente.",
+   "minutes": 7,
+   "content": {
+    "what": "El cartón es un material de fibras de celulosa más grueso que el papel. El cartón corrugado de las cajas tiene una capa ondulada entre dos láminas y es muy valorado cuando está limpio.",
+    "identify": [
+     "Si ves una capa ondulada en el borde, es cartón corrugado.",
+     "El cartón delgado de cajas de cereal o de zapatos también es fibra de celulosa.",
+     "Los envases de leche o jugo que combinan cartón, plástico y aluminio son multicapa: necesitan una recepción específica."
+    ],
+    "classify": [
+     "Vacía la caja y retira bolsas o relleno de plástico.",
+     "Corta las partes con grasa o comida.",
+     "Desarma y aplana la caja.",
+     "Guárdala en un lugar seco, atada con otras cajas si es posible."
+    ],
+    "mistakes": [
+     "Entregar cajas de pizza con grasa sin separar la parte manchada.",
+     "Tratar los envases multicapa como cartón común.",
+     "Dejar cajas armadas que ocupan mucho espacio."
+    ],
+    "tips": [
+     "Reutiliza cajas resistentes para guardar materiales del aula.",
+     "Pregunta si en tu comunidad existe un punto que reciba envases multicapa.",
+     "Aplana las cajas en cuanto se vacían para no acumular volumen."
+    ]
+   },
+   "intro": "Las cajas de cartón se recuperan muy bien si llegan planas, secas y sin grasa.",
+   "examples": [
+    "Caja de cereal",
+    "Caja de envío",
+    "Tubo de papel higiénico",
+    "Caja de pizza con grasa (solo la parte limpia)"
+   ],
+   "quiz": {
+    "title": "¿Cómo preparar el cartón? (demostración)",
+    "questions": [
+     {
+      "prompt": "¿Qué haces con una caja antes de guardarla?",
+      "options": [
+       "La aplano",
+       "La lleno de agua",
+       "La quemo",
+       "La pinto"
+      ],
+      "correct": 0,
+      "explanation": "Aplanarla ahorra espacio."
+     },
+     {
+      "prompt": "¿Qué conviene retirar del cartón?",
+      "options": [
+       "Las cintas adhesivas",
+       "Las letras impresas",
+       "Los pliegues",
+       "Nada"
+      ],
+      "correct": 0,
+      "explanation": "Las cintas son de otro material."
+     },
+     {
+      "prompt": "Un cartón empapado…",
+      "options": [
+       "Está listo",
+       "Debe secarse antes",
+       "Es vidrio",
+       "Es metal"
+      ],
+      "correct": 1,
+      "explanation": "La humedad dificulta su recuperación."
+     }
+    ]
+   },
+   "activities": [
+    {
+     "kind": "image",
+     "prompt": "¿Cuál de estos materiales es cartón?",
+     "options": [
+      "plastic",
+      "cardboard",
+      "glass"
+     ],
+     "answer": 1,
+     "explanation": "Ejemplo de demostración para practicar la identificación visual."
+    },
+    {
+     "kind": "match",
+     "prompt": "Relaciona cada caja con el paso adecuado.",
+     "left": [
+      "Caja grande",
+      "Caja con cinta",
+      "Caja mojada"
+     ],
+     "right": [
+      "Retirar la cinta",
+      "Dejar secar antes",
+      "Desarmarla y aplanarla"
+     ],
+     "answer": [
+      2,
+      0,
+      1
+     ],
+     "explanation": "Aplanar, retirar cintas y mantener seco facilita su recuperación."
+    },
+    {
+     "kind": "truefalse",
+     "prompt": "Desarmar las cajas ayuda a guardar más cartón en menos espacio.",
+     "answer": true,
+     "explanation": "Aplanadas ocupan mucho menos volumen."
+    }
+   ]
+  },
+  {
+   "slug": "metal-basico",
+   "material": "metal",
+   "title": "Metal: latas con otra vida",
+   "summary": "Diferencia aluminio y acero y aprende a manipular envases metálicos con seguridad.",
+   "minutes": 7,
+   "content": {
+    "what": "Los envases metálicos más comunes son las latas de aluminio de bebidas y las latas de acero (hojalata) de conservas. Los metales pueden fundirse y aprovecharse muchas veces.",
+    "identify": [
+     "Acerca un imán: si se pega, la lata es de acero; si no, probablemente es de aluminio.",
+     "Las latas de bebidas suelen ser de aluminio, ligeras y fáciles de aplastar.",
+     "Las latas de atún, frijoles o vegetales suelen ser de acero."
+    ],
+    "classify": [
+     "Vacía la lata por completo.",
+     "Enjuaga los restos de comida con cuidado.",
+     "Sepáralas por tipo si tu centro de acopio lo pide.",
+     "Guarda las tapas cortantes dentro de la lata, presionando el borde hacia adentro."
+    ],
+    "mistakes": [
+     "Manipular bordes cortantes sin cuidado.",
+     "Mezclar envases de aerosol, pintura o químicos con latas comunes.",
+     "Entregar latas con restos de comida."
+    ],
+    "tips": [
+     "Pide ayuda a una persona adulta con las latas de bordes filosos.",
+     "Lleva un imán pequeño a la estación de separación del aula.",
+     "Consulta en qué lugares reciben aluminio y acero en tu zona."
+    ]
+   },
+   "intro": "Las latas de aluminio y acero pueden fundirse una y otra vez. Un imán te ayuda a distinguirlas.",
+   "examples": [
+    "Lata de refresco (aluminio)",
+    "Lata de atún o frijoles (acero)",
+    "Tapa metálica de frasco",
+    "Aerosol (manejo especial)"
+   ],
+   "quiz": {
+    "title": "¿Aluminio o acero? (demostración)",
+    "questions": [
+     {
+      "prompt": "¿Qué haces con una lata de bebida vacía?",
+      "options": [
+       "La enjuago",
+       "La lleno de papel",
+       "La entierro",
+       "La pinto"
+      ],
+      "correct": 0,
+      "explanation": "Enjuagarla evita olores."
+     },
+     {
+      "prompt": "Una lata de aluminio pesa…",
+      "options": [
+       "Poco",
+       "Mucho",
+       "Igual que un ladrillo",
+       "Nada"
+      ],
+      "correct": 0,
+      "explanation": "El aluminio es liviano."
+     },
+     {
+      "prompt": "¿Qué objeto es metal?",
+      "options": [
+       "Lata",
+       "Botella PET",
+       "Periódico",
+       "Cáscara"
+      ],
+      "correct": 0,
+      "explanation": "La lata es metálica."
+     }
+    ]
+   },
+   "activities": [
+    {
+     "kind": "choice",
+     "prompt": "¿Qué objeto de esta lista es metálico?",
+     "options": [
+      "Lata de bebida",
+      "Bolsa de pan",
+      "Hoja de papel",
+      "Botella PET"
+     ],
+     "answer": 0,
+     "explanation": "Las latas de bebida suelen ser de aluminio."
+    },
+    {
+     "kind": "sort",
+     "prompt": "Clasifica estos objetos.",
+     "bins": [
+      "Metal",
+      "No es metal"
+     ],
+     "items": [
+      "Tapa de frasco metálica",
+      "Vaso desechable",
+      "Lata de atún",
+      "Servilleta"
+     ],
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "explanation": "Tapas metálicas y latas son metal; vasos y servilletas no."
+    },
+    {
+     "kind": "truefalse",
+     "prompt": "Una lata debe enjuagarse si tuvo comida.",
+     "answer": true,
+     "explanation": "Los restos de comida atraen insectos y generan malos olores."
+    }
+   ]
+  },
+  {
+   "slug": "vidrio-basico",
+   "material": "glass",
+   "title": "Vidrio: botellas y frascos, con cuidado",
+   "summary": "Separa los envases de vidrio de otros objetos que parecen similares y evita accidentes.",
+   "minutes": 7,
+   "content": {
+    "what": "El vidrio de envases se fabrica con arena, carbonato de sodio y caliza fundidos a alta temperatura. Las botellas y frascos pueden convertirse en vidrio nuevo sin perder calidad.",
+    "identify": [
+     "Las botellas y frascos de bebidas y alimentos son vidrio de envase.",
+     "Los espejos, ventanas, vasos resistentes al calor, focos y cerámica no son vidrio de envase.",
+     "La cerámica y la porcelana son opacas y no se funden igual que el vidrio."
+    ],
+    "classify": [
+     "Vacía la botella o el frasco.",
+     "Retira tapas metálicas o plásticas y sepáralas.",
+     "Entrégalo sin romper en un lugar que lo acepte.",
+     "Si se rompe, avisa a una persona adulta y envuélvelo antes de desecharlo."
+    ],
+    "mistakes": [
+     "Mezclar espejos, cerámica o focos con botellas.",
+     "Recoger vidrio roto con las manos.",
+     "Dejar líquidos o alimentos dentro del frasco."
+    ],
+    "tips": [
+     "Reutiliza frascos limpios para guardar materiales.",
+     "Transporta el vidrio en cajas firmes para que no se golpee.",
+     "Identifica con una etiqueta los recipientes con vidrio roto."
+    ]
+   },
+   "intro": "Las botellas y frascos de vidrio se recuperan enteros. Espejos, focos y cerámica no van con ellos.",
+   "examples": [
+    "Botella de salsa o refresco",
+    "Frasco de mermelada",
+    "Espejo (no se mezcla)",
+    "Plato de cerámica (no se mezcla)"
+   ],
+   "quiz": {
+    "title": "¿Qué vidrio se separa? (demostración)",
+    "questions": [
+     {
+      "prompt": "Un frasco con restos de comida…",
+      "options": [
+       "Se enjuaga",
+       "Se entrega así",
+       "Se rompe",
+       "Se pinta"
+      ],
+      "correct": 0,
+      "explanation": "Enjuagarlo evita contaminar."
+     },
+     {
+      "prompt": "El vidrio roto se entrega…",
+      "options": [
+       "Envuelto y con ayuda adulta",
+       "Suelto en la mochila",
+       "Con papel limpio",
+       "Con los plásticos"
+      ],
+      "correct": 0,
+      "explanation": "Así se evitan cortaduras."
+     },
+     {
+      "prompt": "¿Qué objeto es de vidrio?",
+      "options": [
+       "Frasco de mermelada",
+       "Lata",
+       "Bolsa",
+       "Caja"
+      ],
+      "correct": 0,
+      "explanation": "Los frascos suelen ser de vidrio."
+     }
+    ]
+   },
+   "activities": [
+    {
+     "kind": "image",
+     "prompt": "¿Cuál de estos materiales es vidrio?",
+     "options": [
+      "metal",
+      "glass",
+      "plastic"
+     ],
+     "answer": 1,
+     "explanation": "Ejemplo de demostración para practicar la identificación visual."
+    },
+    {
+     "kind": "sort",
+     "prompt": "Ordena estos objetos de vidrio según cómo manejarlos.",
+     "bins": [
+      "Entero",
+      "Roto"
+     ],
+     "items": [
+      "Frasco de mermelada",
+      "Vaso quebrado",
+      "Botella de salsa",
+      "Pedazos de ventana"
+     ],
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "explanation": "El vidrio roto se entrega envuelto y con ayuda de una persona adulta."
+    },
+    {
+     "kind": "choice",
+     "prompt": "¿Quién debe manipular vidrio roto en la escuela?",
+     "options": [
+      "Una persona adulta",
+      "Cualquier estudiante",
+      "Nadie, se deja en el piso",
+      "Se mezcla con papel"
+     ],
+     "answer": 0,
+     "explanation": "El vidrio roto puede causar cortaduras."
+    }
+   ]
+  },
+  {
+   "slug": "organicos-basico",
+   "material": "organic",
+   "title": "Residuos orgánicos: de vuelta a la tierra",
+   "summary": "Identifica los restos orgánicos que sirven para compostaje escolar y cuáles conviene evitar.",
+   "minutes": 8,
+   "content": {
+    "what": "Los residuos orgánicos provienen de seres vivos, como cáscaras de frutas, restos de verduras y hojas secas. En un compostaje supervisado pueden transformarse en abono para huertos y jardines.",
+    "identify": [
+     "Cáscaras de frutas y verduras, restos de café y hojas secas son orgánicos vegetales.",
+     "Las carnes, huesos, lácteos y aceites también son orgánicos, pero muchos sistemas escolares no los reciben porque atraen plagas.",
+     "Los plásticos que dicen ser compostables suelen necesitar plantas industriales; no los mezcles con el compost escolar."
+    ],
+    "classify": [
+     "Separa los restos vegetales en un recipiente con tapa.",
+     "Retira etiquetas, bolsas y empaques.",
+     "Corta los restos grandes en trozos pequeños.",
+     "Sigue las indicaciones de la persona responsable del compostaje."
+    ],
+    "mistakes": [
+     "Mezclar bolsas plásticas con los restos orgánicos.",
+     "Agregar carne, lácteos o grasas a un compostaje que no los acepta.",
+     "Dejar el recipiente destapado, lo que atrae insectos."
+    ],
+    "tips": [
+     "Combina restos húmedos, como cáscaras, con materiales secos, como hojas.",
+     "Lava el recipiente con frecuencia.",
+     "Usa el abono obtenido en el huerto o las plantas de la escuela."
+    ]
+   },
+   "intro": "Los restos de frutas, verduras y hojas pueden volver a la tierra mediante compostaje. SortlyScan Vision todavía no reconoce orgánicos: esta lección se aprende sin el escáner.",
+   "examples": [
+    "Cáscara de banano o naranja",
+    "Restos de verduras",
+    "Hojas secas",
+    "Carne o lácteos (no van al compost escolar)"
+   ],
+   "quiz": {
+    "title": "¿Qué va al compostaje escolar? (demostración)",
+    "questions": [
+     {
+      "prompt": "¿Cuál es un residuo orgánico?",
+      "options": [
+       "Cáscara de banano",
+       "Lata",
+       "Botella PET",
+       "Vidrio"
+      ],
+      "correct": 0,
+      "explanation": "Viene de una fruta."
+     },
+     {
+      "prompt": "El compost se hace con…",
+      "options": [
+       "Restos orgánicos",
+       "Plástico",
+       "Vidrio",
+       "Metal"
+      ],
+      "correct": 0,
+      "explanation": "Solo con materia orgánica."
+     },
+     {
+      "prompt": "¿Qué NO va al compost?",
+      "options": [
+       "Bolsa plástica",
+       "Hojas secas",
+       "Cáscaras",
+       "Restos de verduras"
+      ],
+      "correct": 0,
+      "explanation": "El plástico no se descompone en el compost."
+     }
+    ]
+   },
+   "activities": [
+    {
+     "kind": "sort",
+     "prompt": "Clasifica estos restos.",
+     "bins": [
+      "Orgánico",
+      "No orgánico"
+     ],
+     "items": [
+      "Hojas secas",
+      "Bolsa plástica",
+      "Cáscara de mango",
+      "Tapa metálica"
+     ],
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "explanation": "Los restos de plantas y frutas son orgánicos."
+    },
+    {
+     "kind": "truefalse",
+     "prompt": "Los residuos orgánicos pueden aprovecharse para hacer compost.",
+     "answer": true,
+     "explanation": "El compost transforma restos orgánicos en abono."
+    },
+    {
+     "kind": "match",
+     "prompt": "Une cada resto con su origen.",
+     "left": [
+      "Cáscara de naranja",
+      "Hojas secas",
+      "Ramas pequeñas"
+     ],
+     "right": [
+      "Árbol",
+      "Jardín",
+      "Fruta"
+     ],
+     "answer": [
+      2,
+      1,
+      0
+     ],
+     "explanation": "Ejemplo de demostración: todos son de origen vegetal."
+    }
+   ]
+  }
+ ],
+ "scanQuestions": {
+  "plastic": [
+   {
+    "prompt": "En la demostración, ¿qué forma tiene una botella PET?",
+    "options": [
+     "Rígida",
+     "Flexible",
+     "Líquida"
+    ],
+    "correct": 0,
+    "explanation": "La botella mantiene su forma."
+   }
+  ],
+  "paper": [
+   {
+    "prompt": "¿Cómo debe estar el papel para separarlo?",
+    "options": [
+     "Seco",
+     "Mojado",
+     "Con grasa"
+    ],
+    "correct": 0,
+    "explanation": "Seco y limpio."
+   }
+  ],
+  "cardboard": [
+   {
+    "prompt": "¿Qué haces con una caja grande?",
+    "options": [
+     "La aplano",
+     "La mojo",
+     "La quemo"
+    ],
+    "correct": 0,
+    "explanation": "Aplanada ocupa menos."
+   }
+  ],
+  "metal": [
+   {
+    "prompt": "Una lata con restos de comida se…",
+    "options": [
+     "Enjuaga",
+     "Entierra",
+     "Pinta"
+    ],
+    "correct": 0,
+    "explanation": "Así no genera olores."
+   }
+  ],
+  "glass": [
+   {
+    "prompt": "El vidrio roto se maneja…",
+    "options": [
+     "Con ayuda adulta",
+     "Con las manos",
+     "Con los pies"
+    ],
+    "correct": 0,
+    "explanation": "Para evitar cortaduras."
+   }
+  ],
+  "other": [
+   {
+    "prompt": "Si no sabes cómo separar algo, ¿qué haces?",
+    "options": [
+     "Pregunto a mi docente",
+     "Lo mezclo todo",
+     "Lo tiro al piso"
+    ],
+    "correct": 0,
+    "explanation": "Consultar evita mezclar materiales."
+   }
+  ]
+ },
+ "assessment": {
+  "id": "demo-materiales",
+  "title": "Evaluación de materiales (demostración)",
+  "version": 1,
+  "questions": [
+   {
+    "material": "plastic",
+    "prompt": "(Demo) ¿Qué plástico es flexible?",
+    "options": [
+     "Bolsa",
+     "Botella gruesa",
+     "Envase de detergente"
+    ],
+    "correct": 0
+   },
+   {
+    "material": "paper",
+    "prompt": "(Demo) ¿Qué daña el papel?",
+    "options": [
+     "La humedad",
+     "Doblarlo",
+     "Escribir"
+    ],
+    "correct": 0
+   },
+   {
+    "material": "cardboard",
+    "prompt": "(Demo) ¿Cómo se guarda una caja?",
+    "options": [
+     "Aplanada",
+     "Mojada",
+     "Llena de comida"
+    ],
+    "correct": 0
+   },
+   {
+    "material": "metal",
+    "prompt": "(Demo) ¿Qué objeto es metálico?",
+    "options": [
+     "Lata",
+     "Servilleta",
+     "Bolsa"
+    ],
+    "correct": 0
+   },
+   {
+    "material": "glass",
+    "prompt": "(Demo) ¿Qué objeto es de vidrio?",
+    "options": [
+     "Frasco",
+     "Lata",
+     "Caja"
+    ],
+    "correct": 0
+   },
+   {
+    "material": "organic",
+    "prompt": "(Demo) ¿Qué resto es orgánico?",
+    "options": [
+     "Cáscara",
+     "Tapa",
+     "Botella"
+    ],
+    "correct": 0
+   }
+  ]
+ }
+}

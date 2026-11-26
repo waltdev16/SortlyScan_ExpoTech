@@ -1,0 +1,23 @@
+node_modules/
+.next/
+out/
+.env
+.env.*
+!.env.example
+!.env.local.example
+*.tsbuildinfo
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+.idea/
+legacy/*.bundle
+
+# Fase 9/10: artefactos regenerables
+tests/e2e/logs/
+machine-learning/runs-v2/
+.pytest_cache/
+
+# Interactive Demo: artefactos de pruebas
+tests/demo/capturas/
+frontend/out/

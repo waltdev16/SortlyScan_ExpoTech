@@ -1,0 +1,72 @@
+{
+ "_nota": "Generado desde backend/app/services/vision_guidance.py y vision.py (LABELS). Mismos textos que la API.",
+ "labels": {
+  "plastic": "Plástico",
+  "paper": "Papel",
+  "cardboard": "Cartón",
+  "metal": "Metal",
+  "glass": "Vidrio",
+  "organic": "Orgánico",
+  "other": "Otros residuos",
+  "unknown": "No identificado"
+ },
+ "guidance": {
+  "plastic": {
+   "summary": "Envase o empaque de plástico.",
+   "recyclable": "Muchos envases rígidos (como el PET de botellas) se recuperan si están vacíos, limpios y secos. Bolsas y envolturas suelen no recibirse: depende del centro de acopio."
+  },
+  "paper": {
+   "summary": "Papel: hojas, cuadernos, periódicos o sobres.",
+   "recyclable": "Se recupera si está limpio y seco. Servilletas, papel higiénico y papel con grasa no se mezclan."
+  },
+  "cardboard": {
+   "summary": "Cartón de cajas y empaques.",
+   "recyclable": "Se recupera aplanado, seco y sin grasa. Los envases multicapa de bebidas requieren una recepción específica."
+  },
+  "metal": {
+   "summary": "Lata o envase metálico (aluminio o acero).",
+   "recyclable": "Las latas vacías y enjuagadas suelen recuperarse. Aerosoles y envases de químicos necesitan manejo especial."
+  },
+  "glass": {
+   "summary": "Botella o frasco de vidrio.",
+   "recyclable": "Los envases de vidrio se recuperan enteros y vacíos. Espejos, focos y cerámica no se mezclan con ellos."
+  },
+  "organic": {
+   "summary": "Residuo orgánico: restos de frutas, verduras u hojas.",
+   "recyclable": "Puede aprovecharse en un compostaje supervisado. Carnes, lácteos y grasas suelen no aceptarse en el compost escolar."
+  },
+  "other": {
+   "summary": "Otros residuos: objetos que no corresponden a los materiales recuperables de la guía.",
+   "recyclable": "Normalmente van a la basura común. Si el objeto combina materiales, sepáralos cuando sea posible y seguro.",
+   "recognize": [
+    "Envolturas metalizadas, empaques sucios o mezclas de materiales difíciles de separar.",
+    "Objetos pequeños de materiales combinados (bolígrafos, cepillos, juguetes rotos)."
+   ],
+   "prepare": [
+    "Verifica si alguna parte puede separarse (por ejemplo, una tapa).",
+    "Deposita el resto donde tu institución indique para basura común."
+   ],
+   "mistakes": [
+    "Mezclar estos residuos con materiales limpios que sí se recuperan."
+   ],
+   "tips": [
+    "Prefiere productos reutilizables o con menos empaque."
+   ]
+  }
+ },
+ "lessonByCategory": {
+  "plastic": "plastico-basico",
+  "paper": "papel-basico",
+  "cardboard": "carton-basico",
+  "metal": "metal-basico",
+  "glass": "vidrio-basico",
+  "organic": "organicos-basico",
+  "other": null
+ },
+ "retryTips": {
+  "low_confidence": "No estamos seguros de qué material es. Acerca el objeto, usa un fondo claro y liso, y que se vea un solo residuo.",
+  "ambiguous": "La imagen se parece a más de un material. Gira el objeto para mostrar su etiqueta o su textura, y vuelve a intentarlo.",
+  "too_dark": "La foto está muy oscura. Busca más luz y evita sombras sobre el objeto.",
+  "low_detail": "La foto está borrosa o casi vacía. Enfoca el objeto y mantén la cámara quieta."
+ }
+}

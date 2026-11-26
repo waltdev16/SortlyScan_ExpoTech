@@ -1,0 +1,6 @@
+
+# ONNX Runtime Web copiado por scripts/prepare-vision.mjs
+public/vision/ort/
+
+# Guía generada por Next.js
+/AGENTS.md

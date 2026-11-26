@@ -1,0 +1,135 @@
+{
+  "fecha": "2026-11-25T22:06:17.092Z",
+  "navegador": "Chrome (Playwright)",
+  "nota": "Mismo archivo en el backend FastAPI (VisionEngine, Pillow + ONNX Runtime CPU) y en el navegador (ONNX Runtime Web, WebAssembly).",
+  "total": {
+    "imagenes": 552,
+    "decision_identica": 552,
+    "max_diferencia_probabilidad": 0.00009419402264865262,
+    "mediana_diferencia": 3.303503672835717e-7
+  },
+  "trashnet_prueba": {
+    "imagenes": 376,
+    "decision_identica": 376,
+    "max_diferencia_probabilidad": 0.000005726774630510079,
+    "mediana_diferencia": 2.1595751253933315e-7
+  },
+  "realwaste": {
+    "imagenes": 150,
+    "decision_identica": 150,
+    "max_diferencia_probabilidad": 0.000007169694937192439,
+    "mediana_diferencia": 6.057241177526151e-7
+  },
+  "externas": {
+    "imagenes": 20,
+    "decision_identica": 20,
+    "max_diferencia_probabilidad": 0.00002259120597314368,
+    "mediana_diferencia": 4.875172460727661e-7
+  },
+  "formatos_exif_calidad": {
+    "imagenes": 6,
+    "decision_identica": 6,
+    "max_diferencia_probabilidad": 0.00009419402264865262,
+    "mediana_diferencia": 0.0000016276440718554497
+  },
+  "latencia_ms_mediana": 26.2,
+  "diferencias": [],
+  "casos_especiales": [
+    {
+      "name": "calidad_lisa.png",
+      "maxDiff": 0.000018595407947907816,
+      "sameDecision": true,
+      "browser": {
+        "category": "unknown",
+        "confidence": 0.25,
+        "reason": "low_detail"
+      },
+      "backend": {
+        "category": "unknown",
+        "confidence": 0.2501,
+        "reason": "low_detail"
+      },
+      "ms": 86.2
+    },
+    {
+      "name": "calidad_negra.jpg",
+      "maxDiff": 0.00009419402264865262,
+      "sameDecision": true,
+      "browser": {
+        "category": "unknown",
+        "confidence": 0.4803,
+        "reason": "too_dark"
+      },
+      "backend": {
+        "category": "unknown",
+        "confidence": 0.4802,
+        "reason": "too_dark"
+      },
+      "ms": 28.4
+    },
+    {
+      "name": "exif_orientacion6_vidrio.jpg",
+      "maxDiff": 7.555228500599753e-7,
+      "sameDecision": true,
+      "browser": {
+        "category": "glass",
+        "confidence": 0.7982,
+        "reason": null
+      },
+      "backend": {
+        "category": "glass",
+        "confidence": 0.7982,
+        "reason": null
+      },
+      "ms": 33.3
+    },
+    {
+      "name": "formato_vidrio.png",
+      "maxDiff": 5.885291747276256e-7,
+      "sameDecision": true,
+      "browser": {
+        "category": "glass",
+        "confidence": 0.7892,
+        "reason": null
+      },
+      "backend": {
+        "category": "glass",
+        "confidence": 0.7892,
+        "reason": null
+      },
+      "ms": 24.2
+    },
+    {
+      "name": "formato_vidrio.webp",
+      "maxDiff": 0.0000016276440718554497,
+      "sameDecision": true,
+      "browser": {
+        "category": "glass",
+        "confidence": 0.8182,
+        "reason": null
+      },
+      "backend": {
+        "category": "glass",
+        "confidence": 0.8182,
+        "reason": null
+      },
+      "ms": 36.6
+    },
+    {
+      "name": "grande_vidrio.jpg",
+      "maxDiff": 5.226437788108385e-7,
+      "sameDecision": true,
+      "browser": {
+        "category": "glass",
+        "confidence": 0.8005,
+        "reason": null
+      },
+      "backend": {
+        "category": "glass",
+        "confidence": 0.8005,
+        "reason": null
+      },
+      "ms": 179.9
+    }
+  ]
+}
